@@ -40,7 +40,14 @@ header .container nav .menu {
 
 header .container nav .menu li {
     margin-right: 4.8rem;
-    color: rgb(218, 255, 5);
+    color: black;
+    background-color: rgb(218, 255, 5);
+    border: 1px solid rgb(218, 255, 5);
+    border-radius: 35px;
+    padding: 10px;
+    font-size: 13pt;
+    font-weight: bolder;
+    list-style-type: none;
 }
 
 header .container nav .menu-social {
@@ -93,7 +100,8 @@ header .container nav .menu-social img:hover {
     font-size: 17pt;
     text-align: center;
     color: rgba(255, 255, 255, 0.8);
-    margin-bottom: 3.2rem;
+    margin-bottom: 3%;
+    margin-top: -1%;
 }
   
 .s-hero .container .title p {
@@ -102,5 +110,12 @@ header .container nav .menu-social img:hover {
     line-height: 10pt;
     text-align: center;
     color: rgba(220, 246, 75, 0.8);
-  }
+}
 
+.s-hero .container .title .techs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6rem;
+    margin-top: 2.3rem;
+}
