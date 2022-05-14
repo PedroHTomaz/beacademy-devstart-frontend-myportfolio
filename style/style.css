@@ -45,7 +45,7 @@ header .container nav .menu li {
     border: 1px solid rgb(218, 255, 5);
     border-radius: 35px;
     padding: 10px;
-    font-size: 13pt;
+    font-size: 12pt;
     font-weight: bolder;
     list-style-type: none;
 }
@@ -85,14 +85,14 @@ header .container nav .menu-social img:hover {
 }
 
 .s-hero .container .title h1 {
-    font-size: 30pt;
+    font-size: 48pt;
     font-weight: 700;
     text-align: center;
     color: white;
 }
 
 .s-hero .container .title h1 span {
-    color: rgb(218, 255, 5)
+    color: rgb(218, 255, 5);
 }
 
 .s-hero .container .title h2 {
@@ -117,5 +117,87 @@ header .container nav .menu-social img:hover {
     align-items: center;
     justify-content: space-between;
     gap: 0.6rem;
-    margin-top: 2.3rem;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    color: rgb(218, 255, 5);
+    border: 1px solid rgb(218, 255, 5);
+    padding: 8px 50px;
+    border-radius: 20px;
+    margin-top: 25px;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+.s-success {
+    padding: 4.4rem 0;
+    margin-left: 5%;
+}
+
+.s-success .container {
+    display: flex;
+    align-items: center;
+    gap: 4.4rem;
+}
+
+.s-success .container .cards {
+    display: flex;
+}
+
+.container .title-success .tag {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 3px 25px;
+    font-size: 13pt;
+    background-color: white;
+}
+
+.title-success h2 span {
+    color: rgb(218, 255, 5);
+    font-size: 48pt;
+    font-weight: bolder;
+}
+
+.title-success h2 {
+    color: white;
+    font-size: 48pt;
+    font-weight: bolder;
+}
+
+.s-success .container .cards .card-active {
+    background-color: rgb(218, 255, 5);
+    width: 260px;
+    height: 280px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.s-success .container .card1 {
+    background-color: white;
+    width: 260px;
+    height: 280px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.s-success .container .card2 {
+    background-color: white;
+    width: 260px;
+    height: 280px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.card-title {
+    font-size: 34pt;
+    margin-left: 10px;
+}
+
+.card-info {
+    font-size: 18pt;
+    margin-left: 10px;
 }
