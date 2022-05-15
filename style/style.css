@@ -156,13 +156,13 @@ header .container nav .menu-social img:hover {
 .title-success h2 span {
     color: rgb(218, 255, 5);
     font-size: 48pt;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .title-success h2 {
     color: white;
     font-size: 48pt;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .s-success .container .cards .card-active {
@@ -200,4 +200,77 @@ header .container nav .menu-social img:hover {
 .card-info {
     font-size: 18pt;
     margin-left: 10px;
+}
+
+.s-about {
+    background-color: rgba(29, 28, 28, 0.877);
+    padding: 25px 0;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+  
+.s-about .container {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.s-about .container .about-me {
+    width: 100%;
+}
+  
+.s-about .container .about-me h2 {
+    font-size: 45pt;
+    color: white;
+    margin-left: 7%;
+}
+
+.s-about .container .about-me span {
+    color: rgb(218, 255, 5);
+}
+
+.s-about .container .about-me p {
+    color: rgba(255, 255, 255, 0.83);
+    margin-left: 7%;
+}
+
+.s-about .container .my-picture {
+    margin: 25px 30px;
+}
+
+/*CASES*/
+
+.s-cases .container .title-cases {
+    color: white;
+    font-size: 32pt;
+    margin-left: 5%;
+}
+
+.s-cases .container .cases {
+    width: 1240px;
+    height: 335px;
+    margin-left: 3.5%;
+    margin-right: 5%;
+}
+
+.s-cases .container .cases .img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.s-cases .container .cases .imgp {
+    width: 425px;
+    border-radius: 10px;
+}
+
+.s-cases .container .cases .img:hover {
+    transform: translateY(-4%);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.s-cases .container .cases .imgp:hover {
+    transform: translateY(-4%);
+    transition: all 1s;
+    cursor: pointer;
 }
