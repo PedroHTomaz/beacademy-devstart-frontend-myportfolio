@@ -2,10 +2,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16pt;
     overflow-x: hidden;
-    background: url(../assets/img/s-hero-bg.jpg);
+    background: url(../assets/img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/*HEADER*/
 
 header {
     position: absolute;
@@ -40,7 +42,6 @@ header .container nav .menu {
 
 header .container nav .menu li {
     margin-right: 4.8rem;
-    color: black;
     background-color: rgb(218, 255, 5);
     border: 1px solid rgb(218, 255, 5);
     border-radius: 35px;
@@ -48,6 +49,17 @@ header .container nav .menu li {
     font-size: 12pt;
     font-weight: bolder;
     list-style-type: none;
+}
+
+header .container nav .menu a {
+    text-decoration: none;
+    color: black;
+}
+
+header .container nav .menu li:hover {
+    filter: brightness(90%);
+    transform: translateY(5%);
+    cursor: pointer;
 }
 
 header .container nav .menu-social {
@@ -66,6 +78,8 @@ header .container nav .menu-social img:hover {
     filter: brightness(90%);
     transform: translateY(-5%);
 }
+
+/*SECTION HERO*/
 
 .s-hero .container {
     display: flex;
@@ -130,6 +144,8 @@ header .container nav .menu-social img:hover {
     font-size: 13pt;
 }
 
+/*SUCESSO TEM NOME*/
+
 .s-success {
     padding: 4.4rem 0;
     margin-left: 5%;
@@ -174,6 +190,11 @@ header .container nav .menu-social img:hover {
     border-radius: 25px;
 }
 
+.s-success .container .cards .card-active:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
 .s-success .container .card1 {
     background-color: white;
     width: 260px;
@@ -202,8 +223,10 @@ header .container nav .menu-social img:hover {
     margin-left: 10px;
 }
 
+/*SOBRE*/
+
 .s-about {
-    background-color: rgba(29, 28, 28, 0.877);
+    background-color: rgba(29, 28, 28, 0.8);
     padding: 25px 0;
     margin-left: -8px;
     margin-right: -8px;
@@ -238,10 +261,15 @@ header .container nav .menu-social img:hover {
     margin: 25px 30px;
 }
 
+.personal-img {
+    border-radius: 10px;
+    opacity: 0.9;
+}
+
 /*CASES*/
 
 .s-cases .container .title-cases {
-    color: white;
+    color: rgb(218, 255, 5);
     font-size: 32pt;
     margin-left: 5%;
 }
@@ -273,4 +301,92 @@ header .container nav .menu-social img:hover {
     transform: translateY(-4%);
     transition: all 1s;
     cursor: pointer;
+}
+
+/*CONTATO*/
+
+.container .title-contact {
+    color: rgb(218, 255, 5);
+    margin-left: 5%;
+    margin-top: 7%;
+    font-size: 32pt;
+    width: 500px;
+}
+
+.form-contact {
+    margin-top: -18%;
+}
+
+.form-contact .input-group {
+    padding: 10px;
+    margin-left: 56%;
+}
+
+.form-contact .input-group input {
+    width: 500px;
+    height: 50px;
+    background-color: #424242;
+    border: 1px solid #424242;
+    border-radius: 7px;
+}
+
+.form-contact .input-group input::placeholder {
+    color: white;
+}
+
+.form-contact .input-group input:hover {
+    border-color: rgb(218, 255, 5);
+}
+
+.form-contact .input-group textarea {
+    width: 500px;
+    height: 180px;
+    border: 1px solid #424242;
+    border-radius: 7px;
+    background-color: #424242;
+}
+
+.form-contact .input-group textarea::placeholder {
+    color: white;
+}
+
+.form-contact .input-group textarea:hover {
+    border-color: rgb(218, 255, 5);
+}
+
+.form-contact .input-button {
+    margin-left: 82%;
+    margin-top: -15px;
+}
+
+.form-contact .input-button .btn-primary {
+    color: black;
+    background-color: rgb(218, 255, 5);
+    font-weight: bold;
+}
+
+.form-contact .input-button .btn-primary:hover {
+    cursor: pointer;
+}
+
+/*FOOTER*/
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-left: -1%;
+    margin-right: -1%;
+    margin-top: 4%;
+    margin-bottom: -1%;
+    background-color: rgba(29, 28, 28, 0.8);
+}
+
+.copy p {
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14pt;
+    color: white;
 }

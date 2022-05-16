@@ -7,6 +7,7 @@
     <title>Be.MyPortifolio</title>
 
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="https://www.beacademy.com.br/wp-content/uploads/2019/11/cropped-FAV-150x150.png" type="image/x-icon"/>
 </head>
 <body>
     <header>
@@ -16,16 +17,16 @@
             </div>
             <nav>
                 <ul class="menu">
-                    <li>QUEM SOU</li>
-                    <li>CASES</li>
-                    <li>&#x1F603; PEÇA UM ORÇAMENTO</li>
+                  <li><a href="#about" class="menu-item">QUEM SOU</a></li>
+                  <li><a href="#cases" class="menu-item">CASES</a></li>
+                  <li><a href="#contact">&#x1F603; PEÇA UM ORÇAMENTO</a></li>
                 </ul>
                 <ul class="menu-social">
                     <li>
-                        <a href=""></a><img src="./assets/img/icon-linkedin.svg" alt="Ir para página do LinkedIn">
+                        <a href="https://www.linkedin.com/in/pedro-henrique-tomaz-vieira-ti/" target="_blank"><img src="./assets/img/icon-linkedin.svg" alt="Ir para página do LinkedIn"></a>
                     </li>
                     <li>
-                        <a href=""></a><img src="./assets/img/icon-github.svg" alt="Ir para página do GitHub">
+                        <a href="https://github.com/PedroHTomaz" target="_blank"><img src="./assets/img/icon-github.svg" alt="Ir para página do GitHub"></a>
                     </li>
                 </ul>
             </nav>
@@ -50,7 +51,7 @@
                         <img src="./assets/img/laravel.png" alt="Logo/Icone framework laravel">
                     </div>
 
-                    <a href="" class="btn-primary">Veja meus cases</a>
+                    <a href="#cases" class="btn-primary">Veja meus cases</a>
                 </div>
             </div>
         </section>
@@ -64,7 +65,7 @@
               <div class="cards">
                 <div class="card-active">
                   <div class="card-title">
-                    <h3>+30</h3>
+                    <h3>+10</h3>
                   </div>
                   <div class="card-info">
                     <p>
@@ -76,7 +77,7 @@
 
                 <div class="card1">
                     <div class="card-title">
-                      <h3>+150</h3>
+                      <h3>+10</h3>
                     </div>
                     <div class="card-info">
                       <p>
@@ -106,11 +107,11 @@
             <div class="about-me">
               <h2>QUEM <span>SOU</span></h2>
               <p>
-                Pedro Tomaz. Estudante de Análise e Desenvolvimento de Sistemas.
+                Pedro Tomaz. Aluno do DevStart e Estudante de Análise e Desenvolvimento de Sistemas. 21 anos. Fortaleza-CE.
               </p>
             </div>
             <div class="my-picture">
-              <img src="./assets/img/perfil.png" alt="Foto de Perfil" />
+              <img src="./assets/img/perfil.png" alt="Foto de Perfil" class="personal-img" />
             </div>
           </div>
         </section>
@@ -128,28 +129,26 @@
           </div>
         </section>
 
-      <!--
         <section id="contact" class="s-contact">
           <div class="container">
             <div class="title-contact">
               <h2>
                 ENTRE EM <br />
-                CONTATO<span>.</span>
+                CONTATO
               </h2>
-              <span class="tag">#LetsGoUp 🚀</span>
             </div>
   
             <form class="form-contact" method="post" action="">
               <div class="input-group">
-                <input type="text" placeholder="Preencha seu nome" required />
+                <input type="text" maxlength="50" placeholder="Preencha seu nome" required />
               </div>
   
               <div class="input-group">
-                <input type="text" placeholder="Preencha seu nome" required />
+                <input type="email" maxlength="25" placeholder="Preencha seu e-mail" required />
               </div>
   
               <div class="input-group">
-                <textarea rows="6" placeholder="Deixe sua mensagem"></textarea>
+                <textarea rows="7" placeholder="Deixe sua mensagem" required></textarea>
               </div>
               <div class="input-button">
                 <button class="btn-primary" type="submit">ENVIAR</button>
@@ -158,15 +157,14 @@
           </div>
         </section>
     </main>
-  -->
-  <!--
+    
     <footer>
       <div class="container">
         <div class="copy">
-          <p>Feito com ❤️ e carinho por mim.</p>
+          <p>Feito por mim durante o DevStart.</p>
         </div>
       </div>
     </footer>
-  -->
+
 </body>
 </html>
