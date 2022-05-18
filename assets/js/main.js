@@ -10,10 +10,7 @@ const scrollReveal = ScrollReveal({
 scrollReveal.reveal(
   `
 .s-hero .title, 
-.s-success .tag ,
-.title-success,
-.cards,
-.card,
+.success,
 .s-about,
 .about-me .my-picture,
 .s-cases,
@@ -33,7 +30,7 @@ for (element of toggle) {
 }
 
 const links = document.querySelectorAll(
-  "nav .menu li .menu-item, nav .btn-primary, nav .menu-social li a"
+  "nav .menu li .menu-item, nav .btn-primary"
 );
 
 for (const link of links) {
